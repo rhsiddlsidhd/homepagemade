@@ -1,0 +1,236 @@
+* {
+  list-style: none;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 0;
+  /* paddin-left 는 UI의 좌측 여백을 제거해주는 기능 */
+}
+.content_00 {
+  font-size: 48px;
+}
+.content_01 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.content_02 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+.content_03 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.content_04 {
+  font-size: 14px;
+  font-weight: 100;
+}
+.bg_intro {
+  background-image: url("image/intro.png");
+  width: 1920px;
+  height: 718px;
+}
+.header {
+  display: flex;
+  width: 1280px;
+  height: 86px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: end;
+
+  width: 980px;
+}
+
+.menu > a {
+  margin-left: 84px;
+  color: white;
+  margin-top: 29px;
+}
+.search_1 {
+  margin-top: 24px;
+  width: 300px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.5;
+}
+input {
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.5;
+  border: none;
+}
+.search_2 {
+  color: white;
+  font-weight: bold;
+}
+.Center_m {
+  text-align: center;
+  margin-top: 231px;
+  color: white;
+}
+.Center_m > h2 {
+  font-size: 48px;
+}
+.Center_m > h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+/* intro end */
+
+.four_head {
+  position: relative;
+  top: -66px;
+  display: flex;
+  width: 1280px;
+  height: 132px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.four_head > li {
+  flex: 1;
+  height: 132px;
+}
+.four_head > li:not(:last-child) > div {
+  border-right: 1px solid #e1e1e1;
+}
+/* 마지막 div 선택자 제외하고 border right 에 만 선을 주어라 */
+.four_head > li > div {
+  text-align: center;
+  height: 57px;
+  margin-top: 37px;
+}
+/* 1_body end */
+.bg_body_1 {
+  width: 1920px;
+  height: 601px;
+  background-color: #f1f2f3;
+  margin-top: -132px;
+}
+.bc_01 {
+  text-align: center;
+  padding-top: 116px;
+}
+.bc_02 {
+  text-align: center;
+}
+.box_menu {
+  display: flex;
+  width: 1280px;
+  height: 302px;
+  margin-top: 49px;
+  margin-left: 319px;
+}
+.box_menu > li {
+  height: 302px;
+  flex: 1;
+  text-align: center;
+  background-color: white;
+}
+.box_menu > li > div > img {
+  margin-top: 36px;
+}
+.box_menu > li:not(:last-child) {
+  margin-right: 20.6px;
+}
+.menu01 {
+  margin: 8px auto 0px;
+  width: 250px;
+  height: 34px;
+  font-weight: bold;
+}
+.more {
+  width: 100px;
+  height: 30px;
+  background-color: #2f7af4;
+  color: white;
+}
+/* 2_body end */
+.bg_body_2 {
+  background-color: white;
+  width: 1920px;
+  height: 659px;
+}
+.bc_03 {
+  text-align: center;
+  padding-top: 50px;
+}
+.bc_04 {
+  text-align: center;
+}
+.food_container {
+  display: flex;
+  width: 1280px;
+  height: 426.5px;
+  margin-top: 49px;
+  margin-left: 320px;
+}
+.food_m {
+  padding-left: 20px;
+}
+.food_m > span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.food_m > p {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-top: 27px;
+  letter-spacing: -1px;
+}
+/* body2 end */
+.bg_body_3 {
+  background-image: url(image/foot.png);
+  width: 1920px;
+  height: 417.81px;
+}
+.bg_body_3 > ul {
+  display: flex;
+
+  color: white;
+}
+.bg_body_3 > ul > li {
+  flex: 1;
+  text-align: center;
+  width: 472px;
+  height: 143px;
+  margin: 138px 244px 137px 244px;
+}
+
+.more2 {
+  border: 1px solid white;
+  width: 220px;
+  height: 40px;
+  margin-left: 126px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+/* body3 end */
+footer {
+  background-color: black;
+  display: flex;
+  width: 1920px;
+  height: 244px;
+}
+footer > div:first-child {
+  flex: 5;
+  text-align: center;
+  color: white;
+  padding: 95px;
+}
+footer > div:last-child {
+  flex: 7;
+  color: white;
+  width: 631px;
+  height: 144px;
+  padding: 51px;
+
+  margin-right: 644px;
+  margin-top: 51px;
+}
