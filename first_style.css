@@ -4,9 +4,11 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
   /* paddin-left 는 UI의 좌측 여백을 제거해주는 기능 */
 }
+
 .content_00 {
   font-size: 48px;
 }
